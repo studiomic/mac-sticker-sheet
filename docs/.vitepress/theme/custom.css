@@ -50,6 +50,10 @@
   border: 0;
 }
 
+.full-width-page .VPDoc .content {
+  padding-bottom: 0 !important;
+}
+
 .cc-wrapper {
   display: grid;
   gap: 0 2em;
