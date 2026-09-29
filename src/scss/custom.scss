@@ -3,15 +3,27 @@
 // sass --watch --no-source-map src/scss/custom.scss:docs/.vitepress/theme/custom.css
 // sass --watch --no-source-map --style=compressed src/scss/custom.scss:docs/.vitepress/theme/custom.css
 
+@use "setting/layout";
 @use "setting/variable";
+@use "overwrite/over-class";
 
 
 
 .cc-wrapper {
-	// display: grid;
+	display: grid;
+	gap: 0 2em;
+	grid-template-areas: 
+    "command-plus shortcut git-command"
+    "command-plus vscode git-command";
 	// grid-template-columns: auto auto 1fr;
 	// padding-left: 4em;
 	// margin: 0 auto;
+	b {
+		font-size: 1.4em;
+	}
+	// section {
+	// 	border: 1px solid var(--green);
+	// }
 }
 
 * dl {
@@ -22,9 +34,9 @@
 }
 
 .command-plus {
+	grid-area: command-plus;
 	dl {
 		grid-template-columns: auto 1fr auto 1fr;
-
 	}
 
 	dt {
@@ -40,4 +52,18 @@
 	// dt,dd {
 	// 	padding: .5em;
 	// }
+}
+
+
+.shortcut {
+	grid-area: shortcut;
+
+}
+
+.git-command {
+	grid-area: git-command;
+}
+
+.vscode {
+	grid-area: vscode;
 }

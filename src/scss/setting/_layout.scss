@@ -1,0 +1,18 @@
+/* フル横幅用のカスタムスタイル */
+.full-width-page {
+  --vp-layout-max-width: 100% !important;
+  --vp-content-width-md: 100% !important;
+  --vp-content-width-lg: 100% !important;
+  --vp-content-width-xl: 100% !important;
+}
+
+/* もし右側の目次（Outline）も非表示にして完全に画面いっぱいにしたい場合 */
+.full-width-page .VPDoc {
+  padding: 0 24px !important;
+}
+.full-width-page .container {
+  max-width: 100% !important;
+}
+.full-width-page .content {
+  max-width: 100% !important;
+}
