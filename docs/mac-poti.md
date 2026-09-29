@@ -8,7 +8,12 @@ pageClass: full-width-page
 ---
 
 
+
+# Shortcut Keys 　[ Shift ⇧ ]　[ Control ^ ]　[ Option ⌥  ]　[ Command ⌘ ]
+
 <div class="cc-wrapper">
+
+
 
 <section class="command-plus">
 
@@ -68,20 +73,124 @@ pageClass: full-width-page
 
 
 
+<div class="command-plus-under">
+
+<span>`⌘`</span> ＋ <span>`⌥`</span> ＋ <span>`etc`</span> 〔アプリ強制終了〕
+<hr>
+
+<span>`^`</span> ＋ <span>`⌥`</span> ＋　<span>`S`</span>　||　<span>`⌥`</span> + <span>`⌘`</span> ＋　電源 　〔スリープ〕
+<hr>
+
+
+<span>`⌘`</span> ＋ <span>`^`</span> ＋ 電源 〔強制再起動〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`⌥`</span> ＋ <span>`^`</span> ＋ 電源 〔強制再起動〕
+<hr>
+
+
+</div>
+
+</section>
+
+<section class="shortcut">
+
+<span>`^`</span> ＋ <span>`⌘`</span> ＋ <span>`Q`</span> 〔ロック画面〕 ＋ <span>`etc`</span>〔 ＋ スリープ〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`⇧`</span> ＋ <span>`3`</span> 〔全画面スクショ〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`⇧`</span> ＋ <span>`4`</span> 〔選択範囲スクショ〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`⇧`</span> ＋ <span>`4`</span> ＋ <span>`space`</span> 〔選択ウィンドウ〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`⇧`</span> ＋ <span>`5`</span> 〔画面収録〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`space`</span>  〔Spotlight検索〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`▲`</span>  〔Finder：上位フォルダへ〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`delete`</span>  〔削除〕
+<hr>
+
+<span>`⌘`</span> ＋ <span>`⇧`</span> ＋ <span>`delete`</span>  〔ゴミ箱を空にする〕
+<hr>
+
+<span>`⌥`</span> ＋ <span>`⌘`</span> ＋ <span>`⇧`</span> ＋ <span>`delete`</span>  〔ゴミ箱を空にする：ダイアログなし〕
+<hr>
+
+
+<span>`^`</span> ＋ <span>`fn`</span> ＋ <span>`C`</span>  〔ウィンドウ中央配置〕
+<hr>
+
+<span>`^`</span> ＋ <span>`fn`</span> ＋ <span>`F`</span>  〔ウィンドウ画面全体〕
+<hr>
+
+<span>`⌥`</span> ＋ <span>`F1`</span> or <span>`F2`</span> or <span>`F3`</span>  〔システム環境設定〕
+<hr>
+
 
 </section>
 
 
-<section class="vscode">
 
-Control ^　+　fn + C
+<section class="bash">
+
+## Terminal Command
+
+
+```
+ls
+```
+
+```
+ls -l , ls -a , ls −la
+```
+
+```
+cd ../
+```
+
+```
+cd ~/
+```
+
+```
+pwd
+```
+
+```
+touch New-File
+```
+
+```
+mkdir ＃Make-Dir
+```
+
+```
+rm remove
+```
+
+```
+open .
+```
+
+```
+https://qiita.com/ryouzi/items/f9dee1540a04a0bfb9a3
+```
 
 </section>
 
 
 <section class="git-command">
 
-## Git command
+## Git Command
 
 ```
 git init
@@ -119,6 +228,9 @@ git commit --amend
 gid add
 ```
 
+```
+https://coddy.tech/git-commands/ja
+```
 
 </section>
 

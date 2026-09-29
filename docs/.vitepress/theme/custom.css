@@ -47,19 +47,30 @@
   --aka: #b4444c;
 }
 
+.vp-doc h1 {
+  font-size: 1.5rem;
+}
+
 .vp-doc h2 {
   /* since it already has a top padding of 1.5rem, we don't need extra scroll margin */
   margin: 0;
   border: 0;
+  padding-top: 0.4em;
 }
 
 .cc-wrapper {
   display: grid;
-  gap: 0 2em;
-  grid-template-areas: "command-plus shortcut git-command" "command-plus vscode git-command";
+  gap: 0 1em;
+  grid-template-columns: auto auto 18% 18%;
+  grid-template-areas: "command-plus shortcut bash git-command";
 }
-.cc-wrapper b {
-  font-size: 1.4em;
+
+span {
+  font-size: 1.2em;
+}
+
+pre span {
+  font-size: 1.1em;
 }
 
 .command-plus {
@@ -71,6 +82,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .command-plus-inner span {
+  font-size: 1em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -84,6 +96,12 @@
   color: currentColor;
 }
 
+.shortcut span code,
+.command-plus-under span code {
+  font-size: 1.2em;
+  color: currentColor;
+}
+
 .shortcut {
   grid-area: shortcut;
 }
@@ -92,6 +110,6 @@
   grid-area: git-command;
 }
 
-.vscode {
-  grid-area: vscode;
+.bash {
+  grid-area: bash;
 }

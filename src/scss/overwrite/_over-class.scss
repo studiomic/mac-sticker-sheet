@@ -1,3 +1,11 @@
+.vp-doc h1 {
+  // letter-spacing: -0.02em;
+  // line-height: 1.4285714;
+  // font-size: 1.75rem;
+  font-size: 1.5rem;
+}
+
+
 .vp-doc h2 {
   // margin: 3rem 0 1rem;
   // border-top: 1px solid var(--vp-c-divider);
@@ -10,6 +18,7 @@
   
   margin: 0;
   border: 0;
+  padding-top: .4em;
 }
 
 // .full-width-page .VPDoc {
