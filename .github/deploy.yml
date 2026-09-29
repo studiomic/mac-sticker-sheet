@@ -1,0 +1,63 @@
+# 静的コンテンツを GitHub Pages にデプロイするためのシンプルなワークフロー
+name: Deploy VitePress site to Pages
+
+on:
+  # デフォルトブランチ（main や master）へのプッシュ時に実行
+  push:
+    branches: [main]
+
+  # Actions タブから手動で実行できるようにする
+  workflow_dispatch:
+
+# GitHub Pages へのデプロイに必要なアクセス権限を設定
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 実行中のデプロイが複数ある場合、古いものをキャンセルして最新を優先する
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # ビルドジョブ
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # https://vitepress.dev
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm # 使用しているパッケージマネージャー（npm/pnpm/yarn）に合わせてください
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install dependencies
+        run: npm ci # pnpm の場合は pnpm install などを指定
+
+      - name: Build with VitePress
+        run: npm run docs:build # package.json にあるビルドコマンドを指定
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .vitepress/dist # ビルドされた静的ファイルの出力先
+
+  # デプロイジョブ
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps: deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
