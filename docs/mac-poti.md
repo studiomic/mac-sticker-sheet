@@ -5,11 +5,8 @@ aside: false
 prev: false
 next: false
 pageClass: full-width-page
+headerText: "Shortcut Keys 　[ Shift ⇧ ]　[ Control ^ ]　[ Option ⌥  ]　[ Command ⌘ ]"
 ---
-
-
-
-# Shortcut Keys 　[ Shift ⇧ ]　[ Control ^ ]　[ Option ⌥  ]　[ Command ⌘ ]
 
 <div class="cc-wrapper">
 

@@ -1,9 +1,12 @@
 // デフォルトテーマ（標準のデザインとレイアウト）を読み込む
 import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
 // さきほど作成したカスタムCSSファイルを読み込む
 import './custom.css'
 
 export default {
   // デフォルトテーマのすべての機能をベースとして継承する
-  extends: DefaultTheme
+  extends: DefaultTheme,
+  Layout
 }
+

@@ -6,11 +6,13 @@
   --vp-c-black: #111;
   --vp-c-neutral: var(--vp-c-black);
   --vp-c-neutral-inverse: var(--vp-c-white);
+  --headerText: var(--red);
 }
 
 .dark {
   --vp-c-neutral: var(--vp-c-white);
   --vp-c-neutral-inverse: var(--vp-c-black);
+  --headerText: var(--green);
 }
 
 :root {

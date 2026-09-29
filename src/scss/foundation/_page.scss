@@ -1,3 +1,11 @@
+
+.custom-header-text {
+	padding-left: 4em;
+	font-size: 2em;
+	font-weight: bold;
+	color: var(--headerText);
+}
+
 .cc-wrapper {
 	display: grid;
 	gap: 0 1em;
