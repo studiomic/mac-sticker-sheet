@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev docs --config docs/.vitepress/config.mts",
+    "docs:build": "vitepress build docs --config docs/.vitepress/config.mts",
+    "docs:preview": "vitepress preview docs --config docs/.vitepress/config.mts"
+  }
+}
