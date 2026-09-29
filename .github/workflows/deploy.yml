@@ -43,18 +43,20 @@ jobs:
         run: npm ci
 
       - name: Build with VitePress
+        # 💡package.json にある正しいビルドコマンドを実行します
         run: npm run docs:build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vitepress/dist # 💡もし docs フォルダの中に .vitepress があるなら docs/.vitepress/dist に書き換えてください
+          # 💡docs フォルダの中の .vitepress/dist を読み込むように修正しました
+          path: docs/.vitepress/dist
 
   # デプロイジョブ
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # 💡ここを「steps.deployment」に修正しました
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
     steps:
