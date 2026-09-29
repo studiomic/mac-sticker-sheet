@@ -2,25 +2,32 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Mac Poti.md",
+  base: '/mac-sticker-sheet/',
+  title: "Mac PoTi.MD",
   description: "Mac Shortcut and Command Cheat Sheet",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/guide' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
-          { text: 'MAC Poti', link: '/mac-poti' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'MAC PoTi', link: '/mac-poti' },
         ]
-      }
+      },
+      {
+        text: 'Guide',
+        items: [
+          { text: 'About', link: '/about' },
+          { text: 'Guide', link: '/guide' },
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+        ]
+      },
     ],
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/studiomic/mac-sticker-sheet' }

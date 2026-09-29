@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Mac Shortcut and Command Cheat Sheet"
-  text: ""
-  tagline: My great project tagline
+  name: "Mac POTI"
+  text: "Shortcut & Command Cheat Sheet"
+  tagline: Be useful to someone,like a laminated sticker.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: POTI.Markdown
+      link: /mac-poti
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
   - title: Bookmark かデスクトップの壁紙に
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: MacBookに貼るラミネートシールを見かけて、同じような便利さを再現しようとつくりました。<br>1980 × 1080 サイズでスクロールなし表示します。
+  - title: Markdown & CSS Grid , Vitepress
+    details: CSS Grid と Markdown 1枚の簡単なものなので、ローカルで好みにアレンジして再利用していただければ幸甚です。
+  - title: Web URL
+    details: https://studiomic.github.io/
 ---
 

@@ -47,6 +47,8 @@
   --blue: #7eb5d9;
   --yellow: #fec803;
   --aka: #b4444c;
+  --vp-c-brand-1: var(--blue);
+  --vp-button-brand-bg: var(--blue);
 }
 
 .vp-doc h1 {

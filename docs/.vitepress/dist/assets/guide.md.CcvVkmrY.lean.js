@@ -1,0 +1,1 @@
+import{H as e,V as t,et as n,j as r}from"./chunks/framework.DSSJFrgb.js";var i=JSON.parse(`{"title":"Guide","description":"","frontmatter":{},"headers":[],"relativePath":"guide.md","filePath":"guide.md"}`),a={name:`guide.md`};function o(r,i,a,o,s,c){return n(),t(`div`,null,[...i[0]||=[e("",3)]])}var s=r(a,[[`render`,o]]);export{i as __pageData,s as default};

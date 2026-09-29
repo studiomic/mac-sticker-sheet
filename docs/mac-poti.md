@@ -178,9 +178,9 @@ rm remove
 open .
 ```
 
-```
-https://qiita.com/ryouzi/items/f9dee1540a04a0bfb9a3
-```
+
+
+[Quote Page](https://qiita.com/ryouzi/items/f9dee1540a04a0bfb9a3)
 
 </section>
 
@@ -225,9 +225,8 @@ git commit --amend
 gid add
 ```
 
-```
-https://coddy.tech/git-commands/ja
-```
+[Quote Page](https://coddy.tech/git-commands/ja)
+
 
 </section>
 
