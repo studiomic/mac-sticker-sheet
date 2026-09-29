@@ -1,5 +1,4 @@
 ---
-# layout: page
 layout: doc
 sidebar: false
 aside: false
@@ -8,7 +7,6 @@ next: false
 pageClass: full-width-page
 ---
 
-# Shortcut Keys /　[ Shift ⇧ ]　[ Control ^ ]　[ Option ⌥  ]　[ Command ⌘ ]
 
 <div class="cc-wrapper">
 
@@ -16,73 +14,59 @@ pageClass: full-width-page
 
 ## ⌘ Command ＋
 
-<dl>
-<dt><span>S</span></dt><dd>保存</dd><dt><span>Z</span></dt><dd>取り消し</dd>
-<dt><span>C</span></dt><dd>コピー</dd><dt><span>Y</span></dt><dd>やり直し</dd>
-<dt><span>V</span></dt><dd>貼り付け</dd><dt><span>X</span></dt><dd>切り取り</dd>
-<dt><span>O</span></dt><dd>開く</dd><dt><span>N</span></dt><dd>新規作成</dd>
-<dt><span>W</span></dt><dd>閉じる</dd><dt><span>I</span></dt><dd>情報を見る</dd>
-<dt><span>Q</span></dt><dd>終了する</dd><dt><span>D</span></dt><dd>ファイル複製</dd>
-<dt><span>F</span></dt><dd>検索</dd><dt><span>R</span></dt><dd>更新</dd>
-<dt><span>M</span></dt><dd>最小化</dd><dt><span>P</span></dt><dd>プリント</dd>
-<dt><span>A</span></dt><dd>全て選択</dd><dt><span>H</span></dt><dd>非表示</dd>
-<dt><span>,</span></dt><dd>環境設定</dd><dt><span>tab</span></dt><dd>アプリ切替</dd>
-</dl>
 
-<hr>
+<div class="command-plus-inner">
+<div>
 
-<b>⌘</b> ＋ <b>⌥</b> ＋ <b>etc</b> 〔強制終了〕
-<hr>
+<span>`S`</span> 保存
 
-<b>⌘</b> ＋ <b>^</b> ＋ 電源 〔強制再起動〕
-<hr>
+<span>`C`</span> コピー
 
-<b>⌘</b> ＋ <b>⌥</b> ＋ <b>^</b> ＋ 電源 〔強制再起動〕
-<hr>
+<span>`V`</span> 貼り付け
 
-<b>⌥</b> + <b>⌘</b> ＋　電源 　|| 　<b>^</b> ＋ <b>⌥</b> ＋　<b>S</b> 〔スリープ〕
+<span>`O`</span> 開く
 
-</section>
+<span>`W`</span> 閉じる
 
-<section class="shortcut">
+<span>`Q`</span> 終了する
 
-<b>^</b> ＋ <b>⌘</b> ＋ <b>Q</b> 〔ロック画面〕
+<span>`F`</span> 検索
 
-<hr>
+<span>`M`</span> 最小化
 
-<b>⌘</b> ＋ <b>⇧</b> ＋ <b>3</b> 〔全画面スクショ〕
+<span>`A`</span> 全て選択
 
-<hr>
+<span>`tab`</span> アプリ切替
 
-<b>⌘</b> ＋ <b>⇧</b> ＋ <b>4</b> 〔選択範囲スクショ〕
+</div>
 
-<hr>
+<div>
 
-<b>⌘</b> ＋ <b>⇧</b> ＋ <b>4</b> ＋ <b>Space</b> 〔選択ウィンドウ〕
+<span>`Z`</span> 取り消し
 
-<hr>
+<span>`Y`</span> やり直し
 
-<b>⌘</b> ＋ <b>⇧</b> ＋ <b>5</b> 〔画面収録〕
+<span>`X`</span> 切り取り
 
-<hr>
+<span>`N`</span> 新規作成
 
-<b>⌘</b> ＋ 
+<span>`I`</span> 情報を見る
 
-<dl>
-<dt>⌘ ＋ Shift  ＋ 3</dt><dd></dd>
-<dt>⌘ ＋ Shift ⇧ ＋ 4</dt><dd>範囲スクショ</dd>
-<dt>⌘ ＋ Shift ⇧ ＋ 4 ＋ SpaceBar</dt><dd>選択ウィンドウ</dd>
-<dt>⌘ ＋ Shift ⇧ ＋ 5</dt><dd>画面収録</dd>
-<dt></dt><dd></dd>
-<dt></dt><dd></dd>
-<dt></dt><dd></dd>
-<dt></dt><dd></dd>
-<dt></dt><dd></dd>
-<dt></dt><dd></dd>
-<dt>⌘ ＋ SpaceBar</dt><dd>Spotlight</dd>
-<dt>⌘ ＋ Delete</dt><dd>削除</dd>
-<dt>⌘ ＋ ▲</dt><dd>上位フォルダへ移動</dd>
-</dl>
+<span>`D`</span> ファイル複製
+
+<span>`R`</span> 更新
+
+<span>`P`</span> プリント
+
+<span>`H`</span> 非表示
+
+<span>`,`</span> 環境設定
+
+</div>
+</div>
+
+
+
 
 
 </section>
@@ -90,7 +74,7 @@ pageClass: full-width-page
 
 <section class="vscode">
 
-
+Control ^　+　fn + C
 
 </section>
 

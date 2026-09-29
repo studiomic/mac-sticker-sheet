@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Mac-command-Cheat Sheet",
+  title: "Mac Poti.md",
   description: "Mac Shortcut and Command Cheat Sheet",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -23,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/studiomic/mac-sticker-sheet' }
     ]
   }
 })

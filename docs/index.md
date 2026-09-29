@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Mac-command-Cheat Sheet"
-  text: "Mac Shortcut and Command Cheat Sheet"
+  name: "Mac Shortcut and Command Cheat Sheet"
+  text: ""
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -15,7 +15,7 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Bookmark かデスクトップの壁紙に
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
