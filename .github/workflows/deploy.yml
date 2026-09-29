@@ -40,16 +40,16 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: npm ci
+        # 💡 npm ci から npm install に変更し、パッケージを確実にインストールします
+        run: npm install
 
       - name: Build with VitePress
-        # 💡package.json にある正しいビルドコマンドを実行します
-        run: npm run docs:build
+        # 💡 package.json の中身に依存せず、直接確実なコマンドでビルドを実行します
+        run: npx vitepress build docs --config docs/.vitepress/config.mts
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 💡docs フォルダの中の .vitepress/dist を読み込むように修正しました
           path: docs/.vitepress/dist
 
   # デプロイジョブ
